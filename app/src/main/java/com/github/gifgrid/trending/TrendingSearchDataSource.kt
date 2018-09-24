@@ -46,7 +46,7 @@ class TrendingSearchDataSource(
             if (query == null || query.isEmpty()) {
                 api.getTrending(offset, limit, key)
             } else {
-                api.getSerch(query, offset, limit, key)
+                api.getSearch(query, offset, limit, key)
             }
         }.doOnError {
             stateSubject.onNext(NetworkState.Error(it))

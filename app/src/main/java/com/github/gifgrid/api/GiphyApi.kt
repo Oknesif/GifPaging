@@ -15,7 +15,7 @@ interface GiphyApi {
     ): Single<GifPaginatedResponse>
 
     @GET("search")
-    fun getSerch(
+    fun getSearch(
             @Query("q") q: String,
             @Query("offset") offset: Int,
             @Query("limit") limit: Int,

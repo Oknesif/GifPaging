@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GifGrid</string>
+    <string name="search_request">Search request</string>
+    <string name="no_key">No Giphy API key found\nPlease put your Giphy API key to build.gradle file of the module</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="no_favorite">You don\'t have favorite gif</string>
+    <string name="loading">Loading</string>
+</resources>

@@ -1,0 +1,1 @@
+A small Android application which use Giphy public API to load trending or by search request gif images. Android Paging library was used for pagination.

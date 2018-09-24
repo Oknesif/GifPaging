@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stroke">3dp</dimen>
+    <dimen name="radius">12dp</dimen>
+    <dimen name="radius_small">8dp</dimen>
+</resources>
